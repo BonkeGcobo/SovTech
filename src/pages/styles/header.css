@@ -4,6 +4,10 @@
     justify-content: space-between;
 }
 
+.title {
+    color: #6070ff;
+}
+
 .links {
     display: flex;
     flex-direction: column;
@@ -13,12 +17,16 @@
 
 
 .mob-menu {
-    display: block;
+    display: none;
+  }
+
+  .show {
+    display: flex;
     background-color: #6070ff;
     width: 100%;
     margin-top: 0;
+    justify-content: space-between;
     height: 100%;
-    left: -150%;
     right: 0;
     top: 0;
     bottom: 0;
@@ -28,17 +36,20 @@
     padding: 2rem;
   }
 
-  .show {
-    display: block;
-    background-color: #fff;
-    width: 100%;
-    margin-top: 0;
-    height: 100%;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    position: fixed;
-    color: white;
+.close-Tag{
+    width: 20px;
+    height: 20px;
+}
+
+.links {
+    margin-left: 12px;
+    font-size: 32px;
+    font-weight: bold;
     list-style: none;
-    padding: 2rem;
-  }
+    padding-left: 30px;
+    line-height: 80px;
+}
+
+a {
+    color: #fff;
+}
