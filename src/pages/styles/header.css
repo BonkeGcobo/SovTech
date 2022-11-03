@@ -1,0 +1,44 @@
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    
+}
+
+
+.mob-menu {
+    display: block;
+    background-color: #6070ff;
+    width: 100%;
+    margin-top: 0;
+    height: 100%;
+    left: -150%;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: fixed;
+    color: white;
+    list-style: none;
+    padding: 2rem;
+  }
+
+  .show {
+    display: block;
+    background-color: #fff;
+    width: 100%;
+    margin-top: 0;
+    height: 100%;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: fixed;
+    color: white;
+    list-style: none;
+    padding: 2rem;
+  }
