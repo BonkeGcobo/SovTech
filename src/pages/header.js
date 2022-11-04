@@ -22,8 +22,12 @@ const Header = () => {
                 <h1 className="title">
                     Bonke
                 </h1>
-                <img src={menu} onClick={()=>menuBarClicked()} alt="menuBar"/>
-
+                <img className="menubar" src={menu} onClick={()=>menuBarClicked()} alt="menuBar"/>
+                <ul className="desk-links">
+                    <li className="link"><NavLink style={link}  to="/">Home</NavLink></li>
+                    <li className="link"><NavLink style={link}  to="Projects">Projects</NavLink></li>
+                    <li className="link"><NavLink style={link}  to="Contact">Contact</NavLink></li>
+                </ul>
             </header>
             <div className={showMobMenu ? "show" : "mob-menu"}>
             
