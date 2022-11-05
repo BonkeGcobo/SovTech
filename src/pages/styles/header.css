@@ -65,6 +65,24 @@ a {
     display: none;
 }
 
+.contact {
+    margin-top: 4%;
+}
+
+.connect {
+    color: #8176D4;
+}
+
+.social-media {
+    display: flex;
+    width: 9%;
+    justify-content: space-between;
+}
+
+.social-media-desk {
+    display: none;
+}
+
 @media only screen and (min-width: 1000px){
     .menubar{
         display: none;
@@ -86,11 +104,5 @@ a {
     .link:hover {
         background-color: #6070ff;
     }
-    .myimage {
-       display: block; 
-    }
-    .about-me {
-        display: flex;
-        gap: 5%;
-    }
+   
 }

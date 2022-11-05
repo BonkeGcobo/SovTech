@@ -8,6 +8,7 @@ import Contact from './pages/contact';
 const App = () =>(
   <>
     <Header/>
+    <hr/>
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="Projects" element={<Projects />} />

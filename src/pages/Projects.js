@@ -2,7 +2,8 @@ import React from "react";
 
 const Projects = () =>(
     <>
-        Projects
+        <h1>My Few Projects</h1>
+        <hr/>
     </>
 )
 export default Projects;
