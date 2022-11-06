@@ -73,12 +73,6 @@ a {
     color: #8176D4;
 }
 
-.social-media {
-    display: flex;
-    width: 9%;
-    justify-content: space-between;
-}
-
 .social-media-desk {
     display: none;
 }
