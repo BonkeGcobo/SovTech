@@ -1,10 +1,10 @@
 # Sovtech Portfolio Project
 
-> Created a simple responsive static web page for sovtech to let them know about me and why I want to be part of their team. '
+> Created a simple responsive static web page for sovtech to let them know about me and why I want to be part of their team. 
 
 ## Live version
 
-
+[live Demo link](https://sovtechbonke.netlify.app/)
 
 ## Additional description about the project and its features.
 > You will see that it contains the projects and contact of the section, however I have not added them since it is not part of the scope of the project.
