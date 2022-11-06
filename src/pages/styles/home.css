@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+.info {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 8%;
+}
+
+.home-title {
+    color: #172B4D;
+}
+
+.social-media {
+    display: flex;
+    width: 100%;
+    gap: 5%;
+    
+}
+
+@media only screen and (min-width: 1000px){
+    .myimage {
+        display: block; 
+     }
+     .about-me {
+         display: flex;
+         align-items: center;
+         gap: 5%;
+     
+     }
+     .info {
+         display: flex;
+         flex-direction: column;
+     }
+}
