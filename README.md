@@ -29,7 +29,8 @@
 
 **This is an example of how you may give instructions on setting up your project locally.**
 
-  git clone https://github.com/BonkeGcobo/SovTech.git
+  git clone https://github.com/BonkeGcobo/SovTech.git                                                                          
+  
   cd SovTech
 
 ## Authors
